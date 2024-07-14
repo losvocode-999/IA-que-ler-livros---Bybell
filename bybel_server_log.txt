@@ -1,0 +1,26 @@
+2024-07-12 21:11:47,262 - INFO - Inicializando o processador de IA
+2024-07-12 21:11:47,266 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-07-12 21:11:47,552 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2024-07-12 21:11:47,741 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/config.json HTTP/11" 200 0
+2024-07-12 21:11:47,939 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/tokenizer_config.json HTTP/11" 404 0
+2024-07-12 21:11:48,129 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/spiece.model HTTP/11" 200 0
+2024-07-12 21:11:48,400 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/config.json HTTP/11" 200 0
+2024-07-12 21:11:57,369 - DEBUG - https://huggingface.co:443 "HEAD /t5-large/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-12 21:11:57,686 - INFO - Use pytorch device_name: cpu
+2024-07-12 21:11:57,686 - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v1
+2024-07-12 21:11:57,881 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/modules.json HTTP/11" 200 0
+2024-07-12 21:11:58,140 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2024-07-12 21:11:58,338 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/README.md HTTP/11" 200 0
+2024-07-12 21:11:58,527 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/modules.json HTTP/11" 200 0
+2024-07-12 21:11:58,761 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2024-07-12 21:11:58,953 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/config.json HTTP/11" 200 0
+2024-07-12 21:12:00,656 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v1/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-12 21:12:01,122 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v1/revision/main HTTP/11" 200 2357
+2024-07-12 21:12:01,516 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v1/revision/main HTTP/11" 200 2357
+2024-07-12 21:12:01,741 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v1 HTTP/11" 200 2357
+2024-07-12 21:12:01,946 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-07-12 21:12:02,286 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-07-12 21:12:03,553 - DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-07-12 21:12:03,620 - INFO - Modelos carregados: t5-large, SentenceTransformer, GPT-2
+2024-07-12 21:12:03,668 - WARNING -  * Debugger is active!
+2024-07-12 21:12:03,680 - INFO -  * Debugger PIN: 781-326-969

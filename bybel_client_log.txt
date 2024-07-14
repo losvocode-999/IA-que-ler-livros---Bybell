@@ -1,0 +1,9 @@
+2024-07-12 21:33:06,318 - INFO - Interface gráfica inicializada.
+2024-07-12 21:33:12,561 - INFO - Selecionando arquivo PDF
+2024-07-12 21:33:19,152 - INFO - Arquivo selecionado: C:/Users/luisc/Downloads/Projeto.pdf
+2024-07-12 21:33:19,152 - INFO - Carregando conteúdo do PDF: C:/Users/luisc/Downloads/Projeto.pdf
+2024-07-12 21:33:19,165 - INFO - PDF carregado com sucesso
+2024-07-12 21:33:52,496 - INFO - Pergunta recebida: Qual é a parte mais importante do livro 
+2024-07-12 21:33:52,499 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-12 21:33:56,589 - ERROR - Erro ao processar pergunta: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /process (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6CF26E1E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2024-07-12 21:33:56,592 - INFO - Resposta atualizada na interface
